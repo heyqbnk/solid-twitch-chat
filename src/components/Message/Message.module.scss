@@ -1,0 +1,33 @@
+.root {
+  font: 400 16px "VK Sans Display", Helvetica Neue, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.badges {
+  display: inline-flex;
+  gap: .25em;
+  align-items: center;
+  margin-right: .25em;
+  vertical-align: middle;
+}
+
+.badge {
+  height: 1em;
+  border-radius: .25em;
+  min-width: 1em;
+}
+
+.name {
+  font-weight: bolder;
+  margin-right: .25em;
+}
+
+.message {
+  color: white;
+}
+
+.emote {
+  max-height: 1.75em;
+  vertical-align: middle;
+  margin: 0 .1em;
+}
